@@ -1,5 +1,165 @@
+@bground: #c0c9c8;
+@nice-red: #d17777;
+@nice-blue: #5B83AD;
+@orange-button :#FF7026;
+@bg-content-header: url('../img/px_by_Gre3g_dark@2X.png');
+@bg-optin: url('../img/use_your_illusion_@2X.png');
+@bg-footer: url('../img/tasky_pattern_@2X.png');
+
+@import url("http://fnt.webink.com/wfs/webink.css?project=FF678488-6797-4ACB-B59F-E047F64D7A9C&fonts=95F90F45-4152-A67C-DD4B-8D711D98C007:family=MuseoSlab-1000,6C241EC1-D4A9-6A75-BBA2-54A368143FD0:family=MuseoSlab-700,65ACBD35-AB60-5B70-5FD6-EBA3BAC52B47:family=MuseoSlab-300Italic,B1D4AD91-7937-0AA9-D907-4811FF8D887D:family=MuseoSlab-900,8FD91968-9669-1F3F-C3C7-9CEE3760E9D7:family=MuseoSlab-300,7AD2492B-9C2E-728A-52E7-69BC0C883786:family=AculidaN11D,3DFF9EDE-1FFB-C6BE-07B6-A765C85A3F38:family=MuseoSlab-900Italic,CD130FFC-5E7E-027D-E10B-A5A99FA17129:family=MuseoSlab-500Italic,13810106-BA31-40CE-AC75-13C5E9C226D6:family=MuseoSlab-700Italic,0EDE5065-AC75-0186-4491-9849167E50C6:family=MuseoSlab-100Italic,A68A5D70-C8E4-F792-5BAC-634F969E4CC7:family=MuseoSlab-1000Italic,A54812AB-D22E-1881-C585-438392AEEE00:family=MuseoSlab-100,E213AFFE-F903-C651-3ECD-BF8B621702B1:family=MuseoSlab-500");
+
+body{
+	background-color: @bground;
+}
+
 #hackerhires-wrapper{
-	background-color:#CCC;
-	max-width: 900px;
-	color:blue;
+	background-color: #FFF;
+	width: 960px;
+	//box-shadow: inset 0 0 3px #000000;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+	padding-top: 35px;
+}
+
+#header{
+	padding-top: 23px;
+	vertical-align: center;
+}
+
+.brand > img{
+	opacity:.7;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+}
+
+#hero-shot{
+	background:url('../img/HackerHiresHero.png');
+	height:453px;
+	margin-top: -20px;
+}
+
+#box{
+	background: rgba(0, 0, 0, 0.7);
+	width:430px;
+	margin-left: 450px;
+	margin-top: 55px;
+	height:290px;
+	color: #FFF;
+	padding: 20px;
+	padding-top:28px;
+	text-align: center;
+	position: absolute;
+	vertical-align: center;
+
+	h1{
+		background-color: @nice-red;
+		font-size: 38px;
+		margin-top: 5px;
+		padding: absolute;
+		padding-top:3px;
+		font-family: MuseoSlab-300;
+		text-align: center;
+		margin-left:auto;
+		margin-right:auto;
+		font-weight: bold;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+
+	.top{
+			width:420px;
+			padding-left:auto;
+			padding-right:auto;
+		}
+
+	.bottom{
+			width:370px;
+			padding-left:auto;
+			padding-right:auto;
+		}
+	
+	h3{
+		font-size: 20px;
+		font-family: MuseoSlab-100;
+		margin: 0 3px;
+	}
+
+	h6{
+		font-weight: normal;
+		font-style: : italic;
+		font-size: -3px;
+		font-family: MuseoSlab-100Italic;
+		margin-top: -1px;
+	}
+
+	form{
+		padding-top: 10px;
+
+		input{
+			width:314px;
+		}
+		input[type="text"] {
+			width:300px;
+			height:25px;
+			font-style: italic;
+			font-size: 16px;
+			text-align: center;
+
+		}
+	}
+}
+
+#content-header{
+	margin-top: 15px;
+	margin-bottom: 20px;
+	color:#FFF;
+	font-family: MuseoSlab-300;
+	text-align: center;
+	padding: 12px;
+	background: @bg-content-header;
+	font-weight: none;
+	h1{
+		font-size: 32px;
+	}
+}
+
+#second-optin{
+	background: @bg-optin;
+}
+
+#footer{
+	background: @bg-footer;
+	bottom: 0;
+	position: static;
+	padding:20px;
+	color:#FFF;
+	a{color:#FFF;
+		&:link {text-decoration:none;}
+		&:visited {text-decoration:none;}
+		&:hover {text-decoration:underline}
+		&:active {text-decoration:none;}
+	}
+}
+
+#hackerhires-footer{
+	float:left;
+	font-weight: bold;
+}
+
+#hackerhires-bottom-menu{
+	float:right;
+	font-weight: normal;
+	ul{
+		display: inline;
+		li{list-style: none;
+			display: inline;
+			padding-right: 8px;
+			margin-right: 10px;
+			text-decoration: none;
+		}
+	}
 }

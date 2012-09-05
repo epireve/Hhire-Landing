@@ -3093,6 +3093,14 @@ button.close {
   background-color: #003399 \9;
 }
 
+/*class: .btn-nice-orange */
+.btn-nice-orange { text-shadow: 0px -1px 0px #ca6a00; color: #ffffff; background-color: #E88801; background-image: -moz-linear-gradient(top, #ffa61f, #ca6a00); background-image: -ms-linear-gradient(top, #ffa61f, #ca6a00); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffa61f), to(#ca6a00)); background-image: -webkit-linear-gradient(top, #ffa61f, #ca6a00); background-image: -o-linear-gradient(top, #ffa61f, #ca6a00); background-image: linear-gradient(top, #ffa61f, #ca6a00); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffa61f', endColorstr='#ca6a00', GradientType=0); border-color: #E88801 #ca6a00 #ca6a00 #E88801; border-color: rgba(0, 0, 0, 0.25) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.25); }
+.btn-nice-orange:hover, .btn-nice-orange:active, .btn-nice-orange.active, .btn-nice-orange.disabled, .btn-nice-orange[disabled] { background-color: #ca6a00; }
+.btn-nice-orange:hover { color: #ffffc9; text-shadow: 0px -1px 0px #ac4c00; }
+.btn-nice-orange:focus { color: #ffec65; -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); border-color: #E88801 #ca6a00 #ca6a00 #E88801; border-color: rgba(0, 0, 0, 0.25) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.25); }
+.btn-nice-orange.active, .btn-nice-orange:active { background-image: none; -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); color: #ffec65; }
+/* end .btn-nice-orange */
+
 .btn-warning {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
@@ -4025,25 +4033,16 @@ input[type="submit"].btn.btn-mini {
   min-height: 40px;
   padding-right: 20px;
   padding-left: 20px;
-  background-color: #fafafa;
-  background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
-  background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
-  background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
-  background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
-  background-repeat: repeat-x;
-  border: 1px solid #d4d4d4;
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
-     -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
-          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  margin-top: 10px;
 }
 
 .navbar .container {
   width: auto;
+}
+
+.nav-collapse {
+  padding-top: 16px;
+  vertical-align: center;
 }
 
 .nav-collapse.collapse {
